@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background:#1b1b2f;
+  color:#ffffff;
+  font-family:'Press Start 2P', cursive;
+  text-align:center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+  color:#ffcc00;
+  margin-bottom:40px;
+}
+
+.container{
+  width:600px;
+  margin:auto;
+}
+
+input{
+  display:block;
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border:3px solid #ffcc00;
+  background:#162447;
+  color:white;
+  font-family:'Press Start 2P', cursive;
+}
+
+button{
+  padding:10px 20px;
+  margin:10px;
+  background:#ffcc00;
+  border:none;
+  cursor:pointer;
+  font-family:'Press Start 2P', cursive;
+}
+
+button:hover{
+  background:#ffd633;
+}
+
+.movie-card{
+  background:#162447;
+  border:3px solid #ffcc00;
+  padding:20px;
+  margin:20px 0;
+  text-align:left;
+}
+
+.movie-card h3{
+  color:#ffcc00;
 }
